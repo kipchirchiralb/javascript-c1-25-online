@@ -2,7 +2,7 @@
 //These include:- number, string, boolean, null, undefined, object, array
 let age = 30 // number
 let rate = 3.25 // number
-let email = "alber@324342$.com" // string "" ''
+let email = 'alber@324342$.com' // string "" ''
 // boolean - true or flase
 let isKenyan = true
 let isLoggedIn = false
