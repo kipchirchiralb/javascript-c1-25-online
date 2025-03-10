@@ -18,6 +18,11 @@ if (score > 7) {
 }
 // grading system -- A B C D ,,,, red , medium, green
 
+
 // using a switch statement, code a grading system, case >70 A, case>50 B , case >30 D , else E
+
+
+
+
 
 //   ()   {}  []  |  ` " " ' ~ ! @ # $ % ^ & * ? > <
