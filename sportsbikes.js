@@ -137,5 +137,4 @@ console.log(sportsBikesShop[0].bikes[0].specifications.engine.type); // all the 
    How many "Candy Lime Green" Kawasaki Z900 bikes are in stock?  
    _(Hint: Find the Z900 in Naked Bikes, then check its inventory.colors for the specific color)_
 
-
  */
