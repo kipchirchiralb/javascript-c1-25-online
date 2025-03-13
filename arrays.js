@@ -16,3 +16,6 @@ console.log(colors[0][1]); // green
 for (let index = 0; index < scores.length; index++) {
   console.log("Element at index " + index + " is " + scores[index]);
 }
+
+console.log(scores[scores.length - 1]); // access the last element in an array
+

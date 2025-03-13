@@ -102,111 +102,18 @@ const sportsBikesShop = [
       },
     ],
   },
-  {
-    category: "Naked Bikes",
-    bikes: [
-      {
-        id: "NB001",
-        brand: "Kawasaki",
-        model: "Z900",
-        year: 2023,
-        price: 9399.0,
-        specifications: {
-          engine: {
-            type: "948cc liquid-cooled 4-cylinder",
-            horsepower: 125,
-            torque: "98.6 Nm",
-          },
-          weight: {
-            dry: "465 lbs",
-            wet: "471 lbs",
-          },
-          suspension: {
-            front: "41mm inverted fork",
-            rear: "Horizontal back-link shock",
-          },
-        },
-        inventory: {
-          available: true,
-          stock: 20,
-          colors: [
-            {
-              name: "Metallic Spark Black",
-              code: "#1A1A1A",
-              quantity: 12,
-            },
-            {
-              name: "Candy Lime Green",
-              code: "#00FF00",
-              quantity: 8,
-            },
-          ],
-        },
-        reviews: [
-          {
-            customerId: "CUST004",
-            rating: 4.6,
-            comment: "Perfect balance of power and comfort",
-            date: "2024-11-30",
-          },
-          {
-            customerId: "CUST005",
-            rating: 4.4,
-            comment: "Love the aggressive styling",
-            date: "2025-01-05",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    category: "Accessories",
-    items: [
-      {
-        id: "ACC001",
-        type: "Helmet",
-        brand: "AGV",
-        model: "Pista GP RR",
-        price: 1499.99,
-        details: {
-          material: "Carbon Fiber",
-          sizes: ["S", "M", "L", "XL"],
-          safetyRating: "ECE 22.06",
-        },
-        inventory: {
-          available: true,
-          stock: 25,
-          variants: [
-            {
-              color: "Glossy Carbon",
-              sizeStock: {
-                S: 5,
-                M: 8,
-                L: 7,
-                XL: 5,
-              },
-            },
-          ],
-        },
-      },
-      {
-        id: "ACC002",
-        type: "Exhaust",
-        brand: "Akrapovic",
-        model: "Slip-On Line",
-        price: 899.95,
-        details: {
-          material: "Titanium",
-          compatibleBikes: ["YZF-R1", "Panigale V4"],
-        },
-        inventory: {
-          available: true,
-          stock: 12,
-        },
-      },
-    ],
-  },
+ 
 ];
+// console.log(sportsBikesShop[2]); // sepersports data
+console.log(sportsBikesShop[0].bikes[0].specifications.engine.type); // all the info/object on yamaha r1 -
+
+
+
+// people[3].ascools[1]  
+
+
+
+
 
 /**
  Using dot notation(objects) and indexes(arrays) solve these

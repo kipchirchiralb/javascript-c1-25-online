@@ -6,7 +6,7 @@ const bike = {
   availableColors: ["red", "white", "black"],
   lastService: {
     date: "02/02/2025",
-    mech: "Jane Doe",
+    "my mech": "Jane Doe",
     oilChange: false,
   },
 };
@@ -22,3 +22,4 @@ console.log(bike.cc); //180
 // last available color - black
 console.log(bike.availableColors[2]); // black
 // JSON -- Javascript Object Notation
+console.log(bike["lastService"]["my mech"]); 
