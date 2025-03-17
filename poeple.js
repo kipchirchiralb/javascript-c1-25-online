@@ -117,8 +117,10 @@ const people = [
 
 // Using dot notation for objects and bracket notation for array answer the following questions
 
-// print/log the work place for the thrid person
+// print/log the work place for the third person -- index 2
+console.log(people[2].work.company);
 // log the name of Felix's sibling
+console.log(people[5].siblings[0].name);
 // log the second school that Diana went to
 // the age of the youngest person
 // log the number of Glady's siblings
