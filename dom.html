@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <h1>Document Object Model</h1>
+    <button id="randomPicker">Random Color Picker</button>
+
+    <script>
+      // the whole html page/code is converted to a javascript object(document)
+      const randomColorButton = document.querySelector("#randomPicker");
+
+      const colors = ["red", "blue", "yellow", "orange", "brown", "green"];
+
+      randomColorButton.addEventListener("mouseover", () => {
+        let randomIndex = Math.floor(Math.random() * colors.length);
+        // console.log(randomIndex);
+        // console.log(colors[randomIndex]);
+        document.body.style.backgroundColor = colors[randomIndex];
+        document.querySelector("h1").style.color = "green";
+      });
+
+      window.addEventListener("`scroll", () => {
+        if (window.scrollY > 500) {
+          document.querySelector("h1").style.color = "green";
+          document.body.style.backgroundColor = "purple";
+        }
+      });
+
+    //   querySelector, getElementByID, querySelectorAll 
+    // textContent, innherhtml
+    // events 
+    // API - aysnc await
+    </script>
+    <style>
+      body {
+        height: 5000px;
+      }
+    </style>
+  </body>
+</html>
